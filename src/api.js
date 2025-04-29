@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://ems-backend-production-0047.up.railway.app';
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
